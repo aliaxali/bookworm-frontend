@@ -40,18 +40,18 @@ A *React Native + Expo* mobile application for book lovers to share, post, and d
 
 ```bash
 npm install
-
+```
 2️⃣ Start the app:
-
+```bash
 npx expo start
-
+```
 You’ll get options to open it via:
 
 Android Emulator
 
 Expo Go
 
-Development Build (if installed)
+Web
 
 ---
 
