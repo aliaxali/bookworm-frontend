@@ -1,50 +1,72 @@
-# Welcome to your Expo app 👋
+---
 
-This is an [Expo](https://expo.dev) project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
+# 📚 Bookworm Mobile App
 
-## Get started
+A *React Native + Expo* mobile application for book lovers to share, post, and discover their favorite reads. Integrated with a custom backend API for authentication and book post management.
 
-1. Install dependencies
+---
 
-   ```bash
-   npm install
-   ```
+## 🚀 Live Build (APK)
 
-2. Start the app
+👉 [Download latest Android build](https://expo.dev/accounts/aliaxali/projects/mobile/builds/26dd90a2-32ac-40b9-a4cd-fe3ad1218f9d)
 
-   ```bash
-   npx expo start
-   ```
+---
 
-In the output, you'll find options to open the app in a
+## 📦 Tech Stack
 
-- [development build](https://docs.expo.dev/develop/development-builds/introduction/)
-- [Android emulator](https://docs.expo.dev/workflow/android-studio-emulator/)
-- [iOS simulator](https://docs.expo.dev/workflow/ios-simulator/)
-- [Expo Go](https://expo.dev/go), a limited sandbox for trying out app development with Expo
+- *React Native*
+- *Expo Router*
+- *React Native Paper & Vector Icons*
+- *Zustand* (for state management)
+- *React Native Safe Area Context*
+- *JWT Authentication*
+- *Node.js + Express (Backend)*
 
-You can start developing by editing the files inside the **app** directory. This project uses [file-based routing](https://docs.expo.dev/router/introduction).
+---
 
-## Get a fresh project
+## 📑 Features
 
-When you're ready, run:
+- User Sign Up / Login
+- JWT-based auth flow with protected routes
+- Book post creation and viewing
+- Custom splash screen and app icon
+- Development build via *Expo EAS Build*
+
+---
+
+## 📲 Get Started Locally
+
+### 1️⃣ Install dependencies:
 
 ```bash
-npm run reset-project
-```
+npm install
 
-This command will move the starter code to the **app-example** directory and create a blank **app** directory where you can start developing.
+2️⃣ Start the app:
 
-## Learn more
+npx expo start
 
-To learn more about developing your project with Expo, look at the following resources:
+You’ll get options to open it via:
 
-- [Expo documentation](https://docs.expo.dev/): Learn fundamentals, or go into advanced topics with our [guides](https://docs.expo.dev/guides).
-- [Learn Expo tutorial](https://docs.expo.dev/tutorial/introduction/): Follow a step-by-step tutorial where you'll create a project that runs on Android, iOS, and the web.
+Android Emulator
 
-## Join the community
+Expo Go
 
-Join our community of developers creating universal apps.
+Development Build (if installed)
 
-- [Expo on GitHub](https://github.com/expo/expo): View our open source platform and contribute.
-- [Discord community](https://chat.expo.dev): Chat with Expo users and ask questions.
+---
+
+🖥 Development & Build
+
+To create a development or production build:
+
+eas build --platform android
+
+
+---
+
+📡 Backend API
+
+The app connects to the live Bookworm Backend API hosted on Render for user auth and book data.
+
+
+---
